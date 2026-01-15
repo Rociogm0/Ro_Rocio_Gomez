@@ -1,0 +1,17 @@
+.site-logo {
+  max-height: 45px;   /* tamaño máximo en desktop */
+  width: auto;        /* mantiene proporción */
+  max-width: 100%;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .site-logo {
+    max-height: 32px;   /* más pequeño en móvil */
+    margin: 0 auto;     /* centrado */
+  }
+
+  .logo {
+    text-align: center;
+  }
+}
